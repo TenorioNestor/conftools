@@ -21,7 +21,7 @@ export default function Home() {
           </p>
           <div>
             <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+              href="https://www.linkedin.com/feed/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -34,9 +34,9 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/semFundo.png"
+            src="/background.png"
             alt="Conftool logo"
-            width={500}
+            width={600}
             height={300}
             priority
           />
