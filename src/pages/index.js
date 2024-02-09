@@ -17,8 +17,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>src/pages/index.js</code>
+            Criamos feramentas para o seu negócio!
           </p>
           <div>
             <a
@@ -26,15 +25,8 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{" "}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
+              By{" Nestor Tenorio"}
+
             </a>
           </div>
         </div>
@@ -42,69 +34,65 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
+            src="/semFundo.png"
+            alt="Conftool logo"
+            width={500}
+            height={300}
             priority
           />
         </div>
 
         <div className={styles.grid}>
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href=""
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Docs <span>-&gt;</span>
+              APPs <span>-&gt;</span>
             </h2>
             <p>
-              Find in-depth information about Next.js features and&nbsp;API.
+              Criamos aplicativos para automatizar e melhorar processos em sua empresa.
             </p>
           </a>
 
           <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href=""
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Learn <span>-&gt;</span>
+              Forms <span>-&gt;</span>
             </h2>
             <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
+              Criação de formulários personalizados, feitos sob medida para sua demanda.
             </p>
           </a>
 
           <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href=""
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Templates <span>-&gt;</span>
+              PWA <span>-&gt;</span>
             </h2>
             <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
+              Aplicações que rodam em IOS, Android e WEB.
             </p>
+
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href=""
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Deploy <span>-&gt;</span>
+              Foco <span>-&gt;</span>
             </h2>
             <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
+              As aplicações são focadas em pequenas e médias empresas, com valores acessíveis.
             </p>
           </a>
         </div>
