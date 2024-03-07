@@ -122,11 +122,20 @@
   .card:hover span {
     transform: translateX(4px);
   }
+  .button{
+    background: rgb(22,22,28);
+    background: linear-gradient(90deg, rgba(22,22,28,1) 0%, rgba(72,72,203,1) 100%);
+
+  }
 }
 
 @media (prefers-reduced-motion) {
   .card:hover span {
     transform: none;
+  }
+  .button{
+    background: rgb(22,22,28);
+    background: linear-gradient(90deg, rgba(22,22,28,1) 0%, rgba(72,72,203,1) 100%);
   }
 }
 
@@ -162,6 +171,7 @@
 
   .description {
     font-size: 0.8rem;
+    margin-bottom: 10px;
   }
 
   .description a {
@@ -194,17 +204,12 @@
 
   .description div {
     align-items: flex-end;
-    pointer-events: none;
     inset: auto 0 0;
-    padding: 2rem;
-    height: 200px;
-    background: linear-gradient(
-      to bottom,
-      transparent 0%,
-      rgb(var(--background-end-rgb)) 40%
-    );
-    z-index: 1;
+    margin-bottom: 10px;
+    border-radius: 0px;
+
   }
+
 }
 
 /* Tablet and Smaller Desktop */
@@ -222,13 +227,10 @@
   .logo {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
   }
+  .button{
+    background: rgb(22,22,28);
+    background: linear-gradient(90deg, rgba(22,22,28,1) 0%, rgba(72,72,203,1) 100%);
+
+  }
 }
 
-@keyframes rotate {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
-}

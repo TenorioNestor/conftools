@@ -17,7 +17,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <p>
-            Criamos feramentas para o seu negócio!
+            Vamos tirar sua ideia do papel!
           </p>
           <div className={styles.button}>
             <a
